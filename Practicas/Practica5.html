@@ -1,0 +1,55 @@
+<Doctype html lang="en">
+<head>
+<title>Practica 5</title>
+</head>
+<body>
+<h1>Formulario de registro de Alumnos de Nuevo Ingreso </h1>
+  <form>
+   <label for="name">Nombre Completo :</label>
+    <input type="text" id="name" name="name" placeholder=""><br><br>
+
+  <label for="email">Correo Electronico:</label>
+   <input type="email" id="email" name="email" placeholder=""><br><br>
+
+    <label for="password">Contraseña:</label>
+     <input type="password" id="password" name="password"><br><br>
+    
+     <p>Genero:</p>
+   <input type="radio" id="male" name="gender" value="male">
+   <label for="male">Hombre</label> <br>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Mujer</label><br>
+
+    <input type="radio" id="otro" name="gender" value="otro">
+     <label for="female">Otro</label><br>
+      
+    <p>Intereses</p>
+  <input type="checkbox" id="hobby1" name="hobbies" value="Deportes">
+   <label for="hobby1">Deportes</label><br><br>
+
+   <input type="checkbox" id="hobby2" name="hobbies" value="Musica">
+   <label for="hobby2">Musica</label><br><br>
+
+ 
+   <input type="checkbox" id="hobby1" name="hobbies" value="Deportes">
+    <label for="hobby1">Tecnologia</label><br><br>
+
+
+<label for="country">Carrera a la que aspiras::</label>
+<select id="country" name="country">
+    <option value="Ing_sis">Ingenieria en Sistemas Computacionales</option>
+    <option value="Ing_civ">Ingenieria Civil</option>
+    <option value="Arq">Arquitectura</option>
+    <option value="Ing_mec">Ingenieria en Mecatronica</option>
+</select> <br><br>
+   
+<p>Comentarios Adicionales</p>
+<textarea id="comments" name="comments" rows="4" cols="50"> </textarea> <br>
+
+        <input type="submit" value="Enviar Formulario">
+                 <input type="reset" value="Restablecer Formulario">
+
+  </form>
+</body>
+</html>
